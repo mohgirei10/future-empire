@@ -151,6 +151,5 @@ app.get('/api/products/delete/:id', async (req, res) => { // Using GET for a qui
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 Server is listening on port ${PORT}`);
-});
+
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
